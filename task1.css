@@ -1,0 +1,95 @@
+
+ul at:hover {
+    background: rgb(151, 245, 139);
+  }
+
+.myUL {
+    padding: 0;
+    margin: 0 auto;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: row;
+    background: #feffff;
+    border-radius: 10px;
+}
+
+body{
+    background: linear-gradient(#39cfcf,#ee3582);
+    max height: 140V;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    margin-bottom: 50px;
+    margin-top: 0px;
+}
+
+.myTask input{
+    text-align: center;
+    padding: 16px 15px;
+    font-size: 17px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 320px;
+    color: #000000;
+    margin-bottom: 10px;
+    
+}
+
+.myTask button{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #080808;
+    background: #feffff;
+    border-left: 2px solid rgb(5, 5, 5);
+}
+
+.myTask button:hover {
+    color: #030303;
+    background: #8af0f0;
+}  
+
+ul at {
+    
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+    justify-content: center;
+    margin-left: -35px;
+            
+}
+
+  .close:hover {
+      color: #000000;
+      background: #6f8080;
+  }
+.close{
+    position: absolute;
+    right: 480;
+    left: 860;
+    
+}
+
+.check{
+     position: absolute; 
+     left: 830;
+}
+
+.check:hover{
+    color: #000000;
+    background: #6f8080;
+} 
+
